@@ -1,0 +1,44 @@
+h4.tec
+{
+    font-family: 'overpass' !important;
+    color: #fff !important;
+    font-size: 23px !important;
+    text-align: center !important;
+    background: #011627 !important;
+    padding: 10px 0 !important;
+    &:hover
+    {
+        background: #011627da !important;
+        color: #ccc !important;
+    }
+}
+#tech
+{
+    background: #011627;
+    padding: 0 170px !important;
+}
+._tech
+{
+    align-content: center !important;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(5, 1fr);
+   .box
+   {
+       padding: 30px !important;
+       box-shadow: 0 2px 5px #00000089 !important;
+       margin: 30px 16px !important;
+       h5
+       {
+           display: none;
+       }
+       img
+       {
+           width: 90% !important;
+       }
+       &:hover
+       {
+           transform: scale(1.2);
+       }
+   }
+}

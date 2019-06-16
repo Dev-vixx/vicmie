@@ -1,0 +1,29 @@
+.links
+{
+    margin-left: 50px !important;
+    ul
+    {
+        display: flex;
+        li
+        {
+            padding: 0 10px !important;
+            font-family: 'overpass' !important;
+            font-size: 12px !important !important;
+            a
+            {
+                font-size: 12px !important;
+                text-transform: capitalize !important;
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media(max-width: 990px)
+{
+    .links
+    {
+        display: none;
+    }
+}
+
