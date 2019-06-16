@@ -1,0 +1,28 @@
+.links {
+  margin-left: 50px !important;
+}
+
+.links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.links ul li {
+  padding: 0 10px !important;
+  font-family: 'overpass' !important;
+  font-size: 12px !important !important;
+}
+
+.links ul li a {
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+  color: #fff;
+}
+
+@media (max-width: 990px) {
+  .links {
+    display: none;
+  }
+}
+/*# sourceMappingURL=links.css.map */

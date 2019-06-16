@@ -1,0 +1,49 @@
+h4.tec {
+  font-family: 'overpass' !important;
+  color: #fff !important;
+  font-size: 23px !important;
+  text-align: center !important;
+  background: #011627 !important;
+  padding: 10px 0 !important;
+}
+
+h4.tec:hover {
+  background: #011627da !important;
+  color: #ccc !important;
+}
+
+#tech {
+  background: #011627;
+  padding: 0 170px !important;
+}
+
+._tech {
+  -ms-flex-line-pack: center !important;
+      align-content: center !important;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 2em;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+}
+
+._tech .box {
+  padding: 30px !important;
+  -webkit-box-shadow: 0 2px 5px #00000089 !important;
+          box-shadow: 0 2px 5px #00000089 !important;
+  margin: 30px 16px !important;
+}
+
+._tech .box h5 {
+  display: none;
+}
+
+._tech .box img {
+  width: 90% !important;
+}
+
+._tech .box:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+/*# sourceMappingURL=Tech.css.map */

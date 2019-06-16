@@ -1,0 +1,106 @@
+._bar {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 40px;
+  position: absolute;
+  color: #fff !important;
+}
+
+._bar ._brand {
+  top: 20px;
+  left: 80px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+._bar ._brand a {
+  font-family: 'raleway' !important;
+  color: #fff !important;
+  font-size: 13px !important;
+  line-height: 1 !important;
+  font-family: 'raleway' !important;
+}
+
+._bar ._brand ._a {
+  font-size: 17px !important;
+  font-family: 'overpass', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+._bar ._search {
+  margin-right: 50px !important;
+}
+
+._bar ._search input {
+  padding: 5px 15px !important;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  outline: none;
+  background: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+._bar ._search input::-webkit-input-placeholder {
+  color: currentColor;
+}
+
+._bar ._search input:-ms-input-placeholder {
+  color: currentColor;
+}
+
+._bar ._search input::-ms-input-placeholder {
+  color: currentColor;
+}
+
+._bar ._search input::placeholder {
+  color: currentColor;
+}
+
+._bar ._search input:focus {
+  width: 300px;
+}
+
+._bar ._expo {
+  padding-top: 5px;
+}
+
+._bar ._expo a {
+  color: #fff;
+  font-size: 12px;
+  font-family: 'arial' !important;
+}
+
+@media (max-width: 800px) {
+  ._bar {
+    width: 100%;
+    height: 45px !important;
+  }
+  ._bar ._brand {
+    left: 40px !important;
+    top: 13px;
+  }
+  ._bar ._search {
+    margin-top: -6px !important;
+    position: relative;
+    margin-right: 23% !important;
+  }
+  ._bar ._search input {
+    padding: 5px 10px !important;
+  }
+}
+
+._expo {
+  padding-top: -15px !important;
+}
+
+._expo a {
+  font-size: 10px !important;
+}
+
+@media (max-width: 606px) {
+  ._search {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Nav.css.map */

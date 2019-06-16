@@ -1,0 +1,107 @@
+._Hero
+{
+    padding-top: 50px !important;
+    color: #fff !important;
+    h1
+    {
+        padding-top: 36px !important;
+        font-weight: 400;
+        font-size: 37px !important;
+        text-align: center !important;
+        font-family: 'ubuntu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    p
+    {
+        margin: 20px 0 !important;
+        color: inherit !important;
+    }
+    ul
+    {
+        li
+        {
+            padding: .7em 0 !important;
+                font-family: 'overpass' !important;
+        }
+    }
+    div#quote
+    {
+        margin-top: 20px !important;
+        a
+        {
+            color: #fff;
+            padding: 10px 23px !important;
+            border-radius: 6px;
+            font-size: 12px !important;
+            border: 1px solid #e61c34df;
+            background: #e61c34df;
+            text-transform: capitalize;
+            letter-spacing: 2.8px;
+        }
+        a:hover
+        {
+            background: transparent;
+            color: #fff;
+        }
+    }
+}
+
+@media(max-width: 990px)
+{
+    ._Hero
+    {
+    padding-top: 40px !important;
+    // reducing the main heading's font size here and paddings
+    h1
+    {
+        padding-top: 36px !important;
+        font-size: 27px !important;
+    }
+    p
+    {
+        margin: 14px 0 !important;
+        font-size: 13px !important;
+        text-align: left;
+        padding: 0 30px !important;
+    }
+    ul
+    {
+        li
+        {
+            padding: .6em 0 !important;
+                font-family: 'overpass' !important;
+                font-size: 13px !important;
+        }
+    }
+    div#quote
+    {
+        margin-top: 20px !important;
+        a
+        {
+            padding: 7px 14px !important;
+            font-size: 10px !important;
+            letter-spacing: 2.1px;
+        }
+    }
+    }
+}
+
+@media(max-width: 825px)
+{
+    ._Hero
+    {
+        #jumboIMG
+        {
+            display: none;
+        }
+    }
+}
+@media(max-width: 460px)
+{
+    ._Hero
+    {
+        p
+        {
+            padding: 0 10px !important;
+        }
+    }
+}

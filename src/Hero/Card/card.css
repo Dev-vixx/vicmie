@@ -1,0 +1,75 @@
+#service {
+  background: url("https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg"), #fff !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-blend-mode: multiply;
+  background-attachment: fixed !important;
+}
+
+#service .vw {
+  width: 80% !important;
+}
+
+#service .vw h2 {
+  margin-top: 20px !important;
+  font-weight: 400;
+  font-family: 'ubuntu' !important;
+}
+
+.card {
+  overflow: hidden;
+  padding: 2em !important;
+  border-radius: 8px !important;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  text-align: center;
+  background: #fff !important;
+  border-radius: 8px;
+  border: 1px solid #eceff1 !important;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15) !important;
+          box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15) !important;
+  margin: 20px auto 20px !important;
+  max-width: 1280px !important;
+  overflow: hidden;
+}
+
+.card h5 {
+  font-family: 'ubuntu' !important;
+  font-size: 20px !important;
+  line-height: 26px !important;
+  color: #424242 !important;
+}
+
+.card p {
+  font-family: 'overpass' !important;
+  margin: 1em !important;
+  text-align: justify !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  color: #757575;
+}
+
+.card p section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+  margin-top: 1em !important;
+  grid-gap: 6px !important;
+}
+
+.card p section h6 {
+  font-size: 12px;
+}
+
+.card p section p {
+  font-size: 10px !important;
+  text-align: left !important;
+  margin: 0 !important;
+  width: 70% !important;
+}
+/*# sourceMappingURL=card.css.map */
