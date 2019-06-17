@@ -14,7 +14,6 @@ import  './Hero/Hero.css';
                 {/* hero */}
                 <Hero/>
             {/* nest section of the list display */}
-            {/* just a test */}
            </div>
         )
     }

@@ -3,6 +3,7 @@ import './Hero.css';
 import '../Main.css';
 import Card from './Card/Card';
 import Tech from './Tech/Tech';
+import vicmie from './vicmie.png';
 const Hero = () => {
     return (
       <section>
@@ -15,27 +16,26 @@ const Hero = () => {
                 </div>
               {/* flexing the list and the image */}
               <div className="_D_F">
-              <div className="f1">
-                    <ul>
-                        <li>Save development cost by 60%</li>
-                        <li>Minified time spent during MVP</li>
-                        <li>Apps works perfectly in offline mode</li>
-                        <li>Optimized server side rendering</li>
-                        <li>Apps runs on cross platform devices</li>
-                        <li>Asyncronious REST Api</li>
-                    </ul>
-                    <div id="quote">
-                    <a href="/">
-                    Plan
-                    </a>
-                </div>
-                </div>
+                <div className="f1">
+                        <ul>
+                            <li>Save development cost by 60%</li>
+                            <li>Minified time spent during MVP</li>
+                            <li>Apps works perfectly in offline mode</li>
+                            <li>Optimized server side rendering</li>
+                            <li>Apps runs on cross platform devices</li>
+                            <li>Asyncronious REST Api</li>
+                        </ul>
+                        <div id="quote">
+                        <a href="/">
+                            Plan
+                        </a>
+                    </div>
+                    </div>
                 {/* next section for image  */}
-                <div className="f1" id="jumboIMG">
-                    image here
+                <div className="f1" id="jumboIMG" style={{width: "50%"}}>
+                    <img src={vicmie}  alt={vicmie} style={{width: "40%"}}/>
                 </div>
               </div>
-               
             </div>
         </div>
        </div>

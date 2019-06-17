@@ -4,6 +4,11 @@ import Links from './Links';
 class Nav extends React.Component {
     componentDidMount()
     {
+        // window.addEventListener("keydown",(e)=>
+        // {
+        //     alert(e.key);
+        // }
+        // )
         window.addEventListener("scroll", ()=>
         {this.setState({scroll: {opacity: 0}})
             if(window.scrollY > 400)
