@@ -12,7 +12,7 @@ import  './Hero/Hero.css';
            <div>
                 <Nav/>
 
-                {/* @ Function 
+                {/* @ Function TODO:
                     @ Desc " segmenting the diffrent layouts for easy rendering using react-router "
                 : */}
                 {/* hero */}
