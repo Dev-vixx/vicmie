@@ -34,6 +34,7 @@ const Hero = () => {
                 {/* next section for image  */}
                 <div className="f1" id="jumboIMG" style={{width: "50%"}}>
                     <img src={vicmie}  alt={vicmie} style={{width: "40%"}}/>
+                    {/* new  */}
                 </div>
               </div>
             </div>
