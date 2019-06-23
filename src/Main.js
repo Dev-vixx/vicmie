@@ -11,13 +11,17 @@ import  './Hero/Hero.css';
         return(
            <div>
                 <Nav/>
+
+                {/* @ Function 
+                    @ Desc " segmenting the diffrent layouts for easy rendering using react-router "
+                : */}
                 {/* hero */}
+                
                 <Hero/>
             {/* nest section of the list display */}
            </div>
         )
     }
-comp
 
 }
 export default Main;
